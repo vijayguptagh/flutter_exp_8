@@ -5,11 +5,14 @@ class myInput extends StatefulWidget {
   final String hint;
 
 
+  
+
   const myInput({
     super.key,
     required this.controler,
     required this.hint,
   });
+  
 
   @override
   State<myInput> createState() => _myInputState();
